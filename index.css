@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(226, 228, 236, 0.306), rgba(112, 4, 11, 0.9)), url("https://media.giphy.com/media/3oEjI7xavQGtPSAhQ4/giphy.gif");
+    
+    background-size: cover;
+    
+   
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color:#EEEEEE;
+    font-family:'Rye', cursive;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    text-shadow: -3px -2px black;
+    
+}
+
+.home-score { 
+  background: black;
+  height: 190px;
+  width: 150px;
+  left: 82px;
+  top: 125px;
+  border-radius: 10px; 
+  padding-top: 4px;
+  border: solid #EEEEEE 3px;
+}
+
+.guest-score {
+    background: black;
+    height: 165px;
+    width: 150px;
+    left: 82px;
+    top: 125px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 30px;
+    border: solid #EEEEEE 3px;
+    
+     }
+
+
+   
+
+#home-btn-1,#home-btn-2,#home-btn-3 {
+    border: 2px solid rgba(154, 171, 216, 1);
+    border-radius: 5px;
+    margin-top: 155px;
+    
+
+}
+
+#guest-btn-1,#guest-btn-2,#guest-btn-3 {
+    border: 2px solid rgba(154, 171, 216, 1);
+    border-radius: 5px;
+    margin-top: 155px;
+    
+}
+
+#home-score-digits {
+    margin-top: 65px;
+    color: greenyellow;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    
+                                                
+}
+
+#guest-score-digits {
+    margin-top: 40px;
+    color: greenyellow;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    
+                                                
+}
+
+
